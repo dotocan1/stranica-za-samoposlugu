@@ -1,3 +1,7 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+}
 header {
     display: inline-flex;
 }
@@ -22,7 +26,7 @@ header ul li {
 /* razmak izmedu kartica*/
 
 .compact-card-info, .clanstvo-slika {
-    margin-left: 250px;
+    margin-left: 150px;
 }
 
 .compact-card-organizacija, .compact-card-clanstvo, footer h1 {
