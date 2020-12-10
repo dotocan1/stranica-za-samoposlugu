@@ -18,12 +18,25 @@ header ul li {
 .compact-card-organization, .compact-card-about {
     width: 25%;
 }
-.compact-card-about{
+
+.compact-card-about {
     margin-left: 600px;
 }
 
-.container-cards{
+.container-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+h1 {
+    color:#16a085;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+p {
+    color: #34495e;
 }
