@@ -15,23 +15,17 @@ header ul li {
     margin-left: 50px
 }
 
-.compact-card-organizacija, .compact-card-info, .compact-card-clanstvo {
-    width: 25%;
+.compact-card-organizacija, .compact-card-info, .compact-card-clanstvo{
+    width: 500px;
 }
 
-/* .compact-card-organizacija, .compact-card-clanstvo {
-    margin-top: 50px;
-    margin-left: 50px;
-} */
-
-.compact-card-info, .compact-card- {
-    margin-left: 600px;
+.compact-card-info{
+    margin-left: 500px;
 }
 
 .container-cards {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 h1 {
