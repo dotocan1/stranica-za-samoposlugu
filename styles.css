@@ -1,15 +1,29 @@
-header{
+header {
     display: inline-flex;
 }
 
-.header-spacing{
+.header-spacing {
     padding-left: 800px;
 }
 
-header ul{
+header ul {
     display: inline-flex;
     list-style-type: none;
 }
-header ul li{
+
+header ul li {
     margin-left: 50px
+}
+
+.compact-card-organization, .compact-card-about {
+    width: 25%;
+}
+.compact-card-about{
+    margin-left: 600px;
+}
+
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
