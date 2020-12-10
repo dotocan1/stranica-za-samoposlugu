@@ -15,11 +15,16 @@ header ul li {
     margin-left: 50px
 }
 
-.compact-card-organization, .compact-card-about {
+.compact-card-organizacija, .compact-card-info, .compact-card-clanstvo {
     width: 25%;
 }
 
-.compact-card-about {
+/* .compact-card-organizacija, .compact-card-clanstvo {
+    margin-top: 50px;
+    margin-left: 50px;
+} */
+
+.compact-card-info, .compact-card- {
     margin-left: 600px;
 }
 
@@ -30,7 +35,7 @@ header ul li {
 }
 
 h1 {
-    color:#16a085;
+    color: #16a085;
 }
 
 h2 {
@@ -39,4 +44,10 @@ h2 {
 
 p {
     color: #34495e;
+}
+
+#prijava-clanstvo {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
 }
