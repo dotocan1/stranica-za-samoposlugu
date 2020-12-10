@@ -3,10 +3,10 @@ header {
 }
 
 .header-spacing {
-    padding-left: 800px;
+    padding-left: 1100px;
 }
 
-header ul {
+header ul, footer ul{
     display: inline-flex;
     list-style-type: none;
 }
@@ -15,17 +15,28 @@ header ul li {
     margin-left: 50px
 }
 
-.compact-card-organizacija, .compact-card-info, .compact-card-clanstvo{
+.compact-card-organizacija, .compact-card-info, .compact-card-clanstvo {
     width: 500px;
 }
 
-.compact-card-info{
-    margin-left: 500px;
+/* razmak izmedu kartica*/
+
+.compact-card-info, .clanstvo-slika {
+    margin-left: 250px;
+}
+
+.compact-card-organizacija, .compact-card-clanstvo, footer h1 {
+    margin-left: 50px;
+}
+
+.compact-card-clanstvo, .clanstvo-slika {
+    margin-top: 150px;
 }
 
 .container-cards {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -44,4 +55,16 @@ p {
     margin-top: 20px;
     width: 150px;
     height: 50px;
+}
+
+h1, h2, h3 {
+    padding: 0px;
+}
+footer{
+    background-color: #ecf0f1;
+    margin: 0px;
+}
+
+footer ul{
+    margin: 15px;
 }
