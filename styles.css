@@ -3,7 +3,7 @@ header {
 }
 
 .header-spacing {
-    padding-left: 1100px;
+    padding-left: 1250px;
 }
 
 header ul, footer ul{
@@ -16,7 +16,7 @@ header ul li {
 }
 
 .compact-card-organizacija, .compact-card-info, .compact-card-clanstvo {
-    width: 500px;
+    width: 600px;
 }
 
 /* razmak izmedu kartica*/
