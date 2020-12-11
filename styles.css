@@ -22,12 +22,15 @@ header ul li {
 
 .compact-card-organizacija, .compact-card-info, .compact-card-clanstvo {
     /* outline: 2px solid blue; */
+    height: 600px;
+    width: 550px;
+    flex-basis: 45%
 }
 
 .container-cards {
-    display: grid;
-    grid-template-rows: 700px 700px;
-    grid-template-columns: 700px 700px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .compact-card-organizacija, .compact-card-clanstvo{
