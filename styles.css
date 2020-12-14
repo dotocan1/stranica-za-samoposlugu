@@ -5,6 +5,10 @@ body {
 
 header {
     display: inline-flex;
+    
+}
+
+header h3{
     width:max-content;
 }
 
