@@ -1,71 +1,189 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kruh sv. Elizabete</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./images/logo_cutan.png" type="image/x-icon">
+    <title>Kruh sv. Elizabete</title>
 </head>
 
 <body>
-    <header>
-        <img src="./images/logo_cutan.png" alt="" height="60px" width="60px">
-        <h3>Kruh sv. Elizabete</h3>
-        <p class="header-spacing">
-        <ul>
-            <li>Solucije</li>
-            <li>Tekst</li>
-            <li>Tekst</li>
-            <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
-        </p>
-    </header>
-    <div id="container-cards">
-        <div class="compact-card">
-            <h1>O Kruhu sv. Elizabete</h1>
-            <p>Već devetu godinu na „maloj placi“ svakodnevno kucaju<br> ljudi u potrebi za hranom, toplom riječi,
-                osmijehom<br>
-                i ponekom idejom za raskršća života.</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo_cutan.png" alt="" width="30" height="24">Kruh sv. Elizabete</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="compact-cards">
-            <h2>Socijalna samoposluga “Kruh sv. Elizabete“ je projekt Franjevačkog svjetovnog reda koji kroz zadnje
-                četiri godine radi sa siromasima našega Grada i okolice</h2>
-            <p>Projekt je započeo 2010. povodom Dana siromaštva kada je pokrenuta prva akcija „Mladi protiv gladi“
-                poticajom školama da po principu jedan učenik jedan proizvod, prikupe osnovne namirnice koje su se onda
-                podijelile najsiromašnijim sugrađanima.
-                Sa svakodnevnim radom počeli smo u travnju 2011. na Brajdi 7, gdje nam je Grad je ustupio prostor kako
-                bi se našim najugroženijim sugrađanima jednom mjesečno osigurao paket hrane. Nastavili smo s
-                kontinuiranim prikupljanjem hrane po trgovačkim centrima, svaku subotu volonteri od 9h do 21h u 3 smjene
-                dežuraju u trgovačkim centrima animirajući kupce da pomognu. Naše su se aktivnosti, prateći potrebe
-                naših korisnika, proširile na odjeću, obuću i kućanske potrepštine.
+    </nav>
+    <div class="container">
+        <!-- Content here -->
 
-                Također, paralelno smo potaknuli razvoj ideje u drugim gradovima u RH te možemo reći da su našim
-                primjerom i iskustvom rada vrata otvorile i Samoposluge u Varaždinu, Vinkovcima, Vukovaru i Karlovcu.
-            </p>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                <h1>O Kruhu sv. Elizabete</h1>
+                <p>Već devetu godinu na „maloj placi“ svakodnevno kucaju<br> ljudi u potrebi za hranom, toplom riječi,
+                    osmijehom<br>
+                    i ponekom idejom za raskršća života.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                <h2>Socijalna samoposluga “Kruh sv. Elizabete“ je projekt Franjevačkog svjetovnog reda koji kroz zadnje
+                    četiri godine radi sa siromasima našega Grada i okolice</h2>
+                <p>Projekt je započeo 2010. povodom Dana siromaštva kada je pokrenuta prva akcija „Mladi protiv gladi“
+                    poticajom školama da po principu jedan učenik jedan proizvod, prikupe osnovne namirnice koje su se
+                    onda
+                    podijelile najsiromašnijim sugrađanima.
+                    Sa svakodnevnim radom počeli smo u travnju 2011. na Brajdi 7, gdje nam je Grad je ustupio prostor
+                    kako
+                    bi se našim najugroženijim sugrađanima jednom mjesečno osigurao paket hrane. Nastavili smo s
+                    kontinuiranim prikupljanjem hrane po trgovačkim centrima, svaku subotu volonteri od 9h do 21h u 3
+                    smjene
+                    dežuraju u trgovačkim centrima animirajući kupce da pomognu. Naše su se aktivnosti, prateći potrebe
+                    naših korisnika, proširile na odjeću, obuću i kućanske potrepštine.
+
+                    Također, paralelno smo potaknuli razvoj ideje u drugim gradovima u RH te možemo reći da su našim
+                    primjerom i iskustvom rada vrata otvorile i Samoposluge u Varaždinu, Vinkovcima, Vukovaru i
+                    Karlovcu.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                <h1>Postani član</h1>
+                <p>Uvijek trazimo ljude koji su spremni djeliti nasu viziju s nama. Imas predispozicije? <br>Javi se
+                    ovdje:
+                    <br><button id="prijava-clanstvo">Prijava:</button>
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                <div><img class="clanstvo-slika" src="./images/clanstvo.jpg" alt="" height="450px" width="800px"></div>
+            </div>
         </div>
-        <div class="compact-card">
-            <h1>Postani član</h1>
-            <p>Uvijek trazimo ljude koji su spremni djeliti nasu viziju s nama. Imas predispozicije? <br>Javi se
-                ovdje:
-                <br><button id="prijava-clanstvo">Prijava:</button>
-            </p>
-        </div>
-        <div><img class="clanstvo-slika" src="./images/clanstvo.jpg" alt="" height="450px" width="800px"></div>
     </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
 
-    <footer>
-        <h1 id="kontakt">Kako do nas?</h1>
-        <ul>
-            <li><label for="broj-telefona">Broj telefona:</label> 097 636 3946
-            </li>
-            <li><label for="email">E-mail:</label> socijalna.samoposluga@gmail.com</li>
-        </ul>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-dark">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-dark">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-dark">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-dark">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2020 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
