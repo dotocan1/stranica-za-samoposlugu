@@ -6,3 +6,7 @@ h2{
 p{
     color:#34495e;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #34495e;
+}
