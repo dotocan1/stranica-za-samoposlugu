@@ -10,3 +10,8 @@ p{
 .navbar-light .navbar-nav .nav-link {
     color: #34495e;
 }
+
+.carousel-caption h5{
+    font-size: 2em;
+    color: #fd7e14;
+}
