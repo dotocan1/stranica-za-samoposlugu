@@ -23,16 +23,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link  " aria-current="page" href="#">Novosti</a>
+                    <li>
+                        <a class="nav-link  " aria-current="page" href="#" data-bs-toggle="modal"
+                            data-bs-target="#radno-vrijeme">Radno vrijeme</a>
                     </li>
-                    <li class="nav-item">
+                    <li>
                         <a class="nav-link" href="#">Solucije</a>
                     </li>
-                    <li class="nav-item">
+                    <li>
                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Kontakt</a>
                     </li>
-                    <li class="nav-item">
+                    <li>
                         <a class="nav-link"
                             href="https://www.google.com/maps/dir/45.2115841,13.6683291/45.3307601,14.4334935/@45.2628468,13.4924114,9z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0"
                             target="_blank">Kako do nas?</a>
@@ -109,7 +110,7 @@
                     <h5 class="text-uppercase"><a href="./kontakti.html" class="text-dark" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">Kontakt</a>
                     </h5>
-                    <!-- Modal -->
+                    <!-- Modal za kontakt -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog modal-lg">
@@ -130,7 +131,8 @@
                                                     <h5 class="text-uppercase">Broj telefona</h5>
                                                     <ul class="list-unstyled">
                                                         <li>
-                                                            <a href="tel:+385976363946" class="text-dark">HR: +385 97 636 3946</a>
+                                                            <a href="tel:+385976363946" class="text-dark">HR: +385 97
+                                                                636 3946</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -154,7 +156,7 @@
                                                     <h5 class="text-uppercase">Broj ziro racuna</h5>
                                                     <ul class="list-unstyled">
                                                         <li>
-                                                            <a  href="#!" class="text-dark">IBAN HR
+                                                            <a href="#!" class="text-dark">IBAN HR
                                                                 4924020061100721002</a>
                                                         </li>
                                                     </ul>
@@ -186,9 +188,52 @@
                         </div>
                     </div>
                 </div>
-                <!--Grid column-->
+                <!-- Modal za radno vrijeme -->
+                <div class="modal fade" id="radno-vrijeme" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-md">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Radno vrijeme</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container p-4">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                                            <ul class="list-unstyled">
+                                                <li>Ponedjeljak</li>
+                                                <li>Utorak</li>
+                                                <li>Srijeda</li>
+                                                <li>Cetvrtak</li>
+                                                <li>Petak</li>
+                                                <li>Subota</li>
+                                                <li>Nedjelja</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                                            <ul class="list-unstyled">
+                                                <li>11:00 - 17:00</li>
+                                                <li>00:00 - 14:00</li>
+                                                <li>00:15 - 14:00</li>
+                                                <li>00:00 - 14:00</li>
+                                                <li>09:00 - 14:00</li>
+                                                <li>Zatvoreno</li>
+                                                <li>Zatvoreno</li>
+                                            </ul>
+                                        </div>
+                                    </div>
 
-                <!--Grid column-->
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zatvori</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase mb-0"><a
                             href="https://www.google.com/maps/dir/45.2115841,13.6683291/45.3307601,14.4334935/@45.2628468,13.4924114,9z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0"
